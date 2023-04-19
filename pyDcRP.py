@@ -5,7 +5,7 @@ import time
 layout = [[sg.Text("GLC-DRP is active!")], [sg.Button("close")]]
 window = sg.Window("GLC-DRP", layout)
 
-client_id = "944777934915399691"  # Enter your Application ID here.
+client_id = ""  # Enter your Application ID here.
 RPC = Presence(client_id=client_id)
 RPC.connect()
 
